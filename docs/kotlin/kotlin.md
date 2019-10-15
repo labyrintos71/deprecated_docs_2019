@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/kotlin
 ---
 
-# UI Components
+# Koltin
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+기본적인 코틀린 문법에 대해서 다룹니다.
 {: .fs-6 .fw-300 }
