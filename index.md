@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Kotlin
 nav_order: 1
 description: "Kotlin documentation"
 permalink: /
