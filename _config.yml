@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Kotlin Docs
-description: kotlin documentation
+description: Kotlin documentation
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://labyrintos71.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
