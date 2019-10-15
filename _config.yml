@@ -35,7 +35,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
+  "Kotlin Docs on GitHub":
     - "//github.com/labyrintos71/labyrintos71.github.io"
 
 # Footer content appears at the bottom of every page's main content
