@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Home
+nav_order: 1
 description: "Kotlin documentation"
+permalink: /
 ---
 
 # 코틀린 강의
