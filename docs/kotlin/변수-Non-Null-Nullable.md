@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 변수Non-NullNullable
+title: 변수 - Non-Null/Nullable
 parent: Kotlin
 nav_order: 2
 ---
