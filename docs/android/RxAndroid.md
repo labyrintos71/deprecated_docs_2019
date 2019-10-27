@@ -1,8 +1,8 @@
 ---
 layout: default
 title: RxAndroid
-parent: Kotlin
-nav_order: 8
+parent: Andrroid
+nav_order: 1
 ---
 # RxAndroid
 RxAndroid 는 RxJava에 최소한의 클래스를 추가하여 안드로이드 앱에서 리액티브 구성요소를 쉽고 간편하게 사용하게 만드는 라이브러리 입니다.  
