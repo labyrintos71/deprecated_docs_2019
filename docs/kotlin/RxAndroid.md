@@ -38,8 +38,10 @@ RxJava는 간단히 말해서 발행, 구독 입니다. 예를들어
                 .subscribeOn(Schedulers.io())               // 네트워크 입출력이기 떄문에 io를 구독
                 .observeOn(AndroidSchedulers.mainThread())  // UI수정을 위해서 mainthread를 사용  
                 .subscribe({
+                    // 정상적으로 잘 받아왔을경우 처리
                     text.text=it.items[0].full_name
                 },{
+                    // 오류가 생겼을 경우 처리
                     Log.d("MainActivity","ERROR message : ${it.message}")
                 }))
 ```
