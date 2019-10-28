@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 코루틴
+title: coroutine
 parent: Android
 nav_order: 2
 ---
