@@ -40,7 +40,7 @@ fun safeCallsTest() {
 
 ## Not null, !!
 Null값이 안들어온다는 보증을 해주는 연산자이다.
-Null이 아닌값만 들어올 때 사용해야 하며 Null이 들어오게 될경우 NPE를 발생시킨다.
+Null이 아닌값만 들어올 때 사용해야 하며 Null이 들어오게 될경우 NPE를 발생시킨다. 최대한 지양하는게 좋다.
 ```kotlin
 var str:String? = "TEST"
 var nnstr:String = str!!
@@ -59,7 +59,13 @@ fun main(args: Array) {
 var email: String? = "let@example.com" 
 email?.let { sendEmailTo(it) } // Sending email to let@example.com
 email = null 
-email?.let { sendEmailTo(it) } // 실행되지 않음
+email?.let { 
+        sendEmailTo(it) // 실행되지 않음
+        } ?: run{
+                // null일경우 처리
+                // 단 let 마지막 코드 결과가 
+                // null 일 경우 여기로 올 수 있으니 주의
+        }
 }
 
 ```

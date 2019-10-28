@@ -1,7 +1,7 @@
 ---
 layout: default
 title: RxAndroid
-parent: Android
+parent: ReactiveX
 nav_order: 1
 ---
 # RxAndroid
