@@ -1,12 +1,16 @@
 ---
 layout: default
 title: RxAndroid
-parent: Android
-nav_order: 1
+parent: Kotlin
+nav_order: 8
 ---
 # RxAndroid
-RxAndroid 는 RxJava에 최소한의 클래스를 추가하여 안드로이드 앱에서 리액티브 구성요소를 쉽고 간편하게 사용하게 만드는 라이브러리 입니다.
-
+RxAndroid 는 RxJava에 최소한의 클래스를 추가하여 안드로이드 앱에서 리액티브 구성요소를 쉽고 간편하게 사용하게 만드는 라이브러리 입니다.  
+그래들에 다음과 같이 추가하면 됩니다.
+```gradle
+implementation "io.reactivex.rxjava2:rxjava:2.1.1"
+implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
+```
 RxJava는 간단히 말해서 발행, 구독 입니다. 예를들어  
 누군가는 데이터의 강에 데이터를 흘려보내고  
 누군가는 데이터의 강에서 데이터를 줍습니다.
