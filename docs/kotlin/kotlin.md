@@ -6,4 +6,4 @@ has_children: true
 permalink: /docs/kotlin
 ---
 
-## Koltin
+## Kotlin

@@ -2,7 +2,7 @@
 layout: default
 title: 위임(Delegation)
 parent: Kotlin
-nav_order: 6
+nav_order: 7
 ---
 
 # Delegation
@@ -116,25 +116,3 @@ test
 
 ## 왜 이렇게 사용할까?
 상속은 클래스의 변수와 메소드를 모두 받기 때문에 재구현할 필요가 없어서 편리하다. 하지만 올바르지 않은 상속은 많은 문제를 일으키는데 그중 하나가 객체의 유연성을 떨어트리는것 이다. 보통 부모와 자식 클래스가 밀접한 관계며 비슷한 상속을 받게 될때 유연하게 만들기 위해 사용한다.
-
-#### Space
-## Lazy
-lazy()는 람다를 받아 지연 프로퍼티를 구현한 대리자인 Lazy<T>의 인스턴스를 반환한다. get()을 처음 호출하면 lazy()에 전달한 람다가 실행되고, 그 결과가 저장된다. 이후에 get()을 호출하면 저장한 값을 반환한다.
-```kotlin
-val lazyValue: String by lazy {
-    println("computed!")
-    "Hello"
-}
-
-fun main(args: Array<String>) {
-    println(lazyValue)
-    println(lazyValue)
-}
-```
-위 예제는
-```
-computed!
-Hello
-Hello
-```
-을 출력한다.

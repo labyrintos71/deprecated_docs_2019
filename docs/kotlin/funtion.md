@@ -2,7 +2,7 @@
 layout: default
 title: 함수
 parent: Kotlin
-nav_order: 7
+nav_order: 6
 ---
 #  함수
 ## 기본 함수 형태
