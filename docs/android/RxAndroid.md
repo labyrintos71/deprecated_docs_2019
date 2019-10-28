@@ -1,14 +1,8 @@
 ---
 layout: default
-<<<<<<< HEAD:docs/android/RxAndroid.md
 title: RxAndroid
 parent: Android
 nav_order: 1
-=======
-title: 코루틴
-parent: Kotlin
-nav_order: 8
->>>>>>> parent of 20c5947... no message:docs/kotlin/RxAndroid.md
 ---
 # RxAndroid
 RxAndroid 는 RxJava에 최소한의 클래스를 추가하여 안드로이드 앱에서 리액티브 구성요소를 쉽고 간편하게 사용하게 만드는 라이브러리 입니다.
