@@ -12,17 +12,17 @@ nav_order: 5
 클래스의 본문도 작성할 필요도 없다. 클래스 초기화는 다음과 같다.
 ```kotlin
 // constructor는 생략 가능하다.
-class Student constructor(var roll_number: Int, var name: String = "sheldon")
+class Student constructor(var num: Int, var name: String = "sheldon")
 
 //name 처럼 생성자의 기본값도 설정할 수 있다.
-class Student(var roll_number: Int, var name: String = "sheldon")
+class Student(var num: Int, var name: String = "sheldon")
 
 //기본값이 명시된 생성자는 생략할 수 있다.
 fun test(){
     var amy = Student(3) // name엔 sheldon 자동으로 들어간다.
 }
 
-class Student(var roll_number: Int, var name: String = "sheldon"){
+class Student(var num: Int, var name: String = "sheldon"){
 
     //기존 생성자에서 처리하던 일은 init 메소드에서 처리하면 된다.
     init{
@@ -30,7 +30,8 @@ class Student(var roll_number: Int, var name: String = "sheldon"){
     }
 
     //this 키워드를 이용하면 다른생성자를 호출할 수 있다.
-    constructor(var roll_number: Int, var name: String = "sheldon", var classinfo: Int) : this(roll_number, name){
+    constructor(var num: Int, var name: String = "sheldon", var info: Int) 
+        : this(num, name){
 
     }
 }

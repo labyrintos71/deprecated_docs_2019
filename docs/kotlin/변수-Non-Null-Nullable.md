@@ -46,26 +46,3 @@ var str:String? = "TEST"
 var nnstr:String = str!!
 ```
 ####  Space
-
-## let
-let 함수는 자신의 receiver 객체를 람다식 내부로 넘겨준다.
-지금 단계에서는 깊이 이해할 필요는 없다. 
-not null 일 경우에 지정된 구문을 실행할 상황에 사용하면 된다.
-```kotlin
-fun sendEmailTo(email: String) { 
-println("Sending email to $email") 
-} 
-fun main(args: Array) { 
-var email: String? = "let@example.com" 
-email?.let { sendEmailTo(it) } // Sending email to let@example.com
-email = null 
-email?.let { 
-        sendEmailTo(it) // 실행되지 않음
-        } ?: run{
-                // null일경우 처리
-                // 단 let 마지막 코드 결과가 
-                // null 일 경우 여기로 올 수 있으니 주의
-        }
-}
-
-```
