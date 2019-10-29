@@ -2,7 +2,7 @@
 layout: default
 title: Delegation
 parent: Design Pattern
-nav_order: 2
+nav_order: 4
 ---
 # Delegation pattern
 Delegate pattern은 어떤 기능을 자신이 처리하지 않고 다른 객체에 위임을 시켜 그 객체가 일을 처리하도록 하는 것이다.  

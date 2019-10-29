@@ -2,7 +2,7 @@
 layout: default
 title: Decorator
 parent: Design Pattern
-nav_order: 2
+nav_order: 3
 ---
 # Decorator Pattern
 데코레이터 패턴은 객체의 결합을 통해 기능을 동적으로 유연하게 확장 할 수 있게 해주는 패턴이다.  
