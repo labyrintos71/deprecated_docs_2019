@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Coroutine 기초
+title: Coroutine 이론
 parent: Coroutine
 nav_order: 1
 ---
@@ -68,9 +68,11 @@ delay2
 inscope!
 delay3
 ```
-일반적인 루틴이라면 (delay()는 suspend 함수에서만 사용 가능한 Thread.sleep이라고 보면 된다.) delay2 가 먼저 출력이 되어야한다.  
-하지만 코루틴에서는 suspend인 delay2()를 만나 코루틴을 잠시 나가서 mainroutine을 출력하게 된다.(그 중에도 delay2()는 block된게 아니라 코루틴에서 돌아가고 있다.)  
-그러다가 2초가 지나게 되면 delay2 를 출력하고 아래 구문을 진행하게 된다.
+// GlobalScope.lauch{...} 는 thread{...}와 같은 역할, delay{...}는 Thread.sleep{...}과 같은 역할
+
+일반적인 루틴이라면 delay2 가 먼저 출력이 되어야한다.  
+하지만 코루틴에서는 suspend인 delay2()를 만나 코루틴을 잠시 나가서 mainroutine을 출력하게 된다.  
+delay2()는 suspend를 만나 멈췄다가 2초가 지나면 caller가 불러 delay2를 출력하고 아래 구문을 진행한다.
 #### Space
 
 ## 동시성 프로그래밍
