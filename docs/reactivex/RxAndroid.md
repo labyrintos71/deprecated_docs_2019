@@ -35,8 +35,10 @@ RxJava는 간단히 말해서 발행, 구독 입니다. 예를들어
             RetrofitCreator
                 .create(GithubService::class.java)
                 .getRepoList("discord")
-                .subscribeOn(Schedulers.io())               // 네트워크 입출력이기 떄문에 io를 구독
-                .observeOn(AndroidSchedulers.mainThread())  // UI수정을 위해서 mainthread를 사용  
+                // 네트워크 입출력이기 떄문에 io를 구독
+                .subscribeOn(Schedulers.io())
+                // UI수정을 위해서 mainthread를 사용               
+                .observeOn(AndroidSchedulers.mainThread())    
                 .subscribe({
                     // 정상적으로 잘 받아왔을경우 처리
                     text.text=it.items[0].full_name
