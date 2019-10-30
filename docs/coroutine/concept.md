@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Coroutine 키워드
+title: Coroutine 개념
 parent: Coroutine
 nav_order: 2
 ---
-##  Coroutine 키워드
-코루틴을 배워보기 전에, 알고가면 좋은 키워드다.
+##  Coroutine
+코루틴을 배워보기 전에, 알고가면 좋을 개념들이다.
 - CoroutineScope, GlobalScope
 - CoroutineContext
 - Dispatcher
 - launch, async
-
 ## CoroutineScope, GlobalScope
 CoroutineScope는 말 그대로 코루틴을 묶음으로 제어할수 있는 단위다.  
 
