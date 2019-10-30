@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Coroutine 이론
+title: Coroutine 개념
 parent: Coroutine
 nav_order: 1
 ---
