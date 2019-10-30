@@ -2,7 +2,7 @@
 layout: default
 title: Coroutine 기초 - 1
 parent: Coroutine
-nav_order: 2
+nav_order: 3
 ---
 # Coroutine 
 코틀린 공식 가이드에 있는 예제를 보도록 하자.

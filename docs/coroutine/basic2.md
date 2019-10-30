@@ -2,7 +2,7 @@
 layout: default
 title: Coroutine 기초 - 2
 parent: Coroutine
-nav_order: 3
+nav_order: 4
 ---
 ## Structured concurrency
 
