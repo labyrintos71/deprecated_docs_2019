@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Coroutine
+title: Coroutine 설명
 parent: Coroutine
 nav_order: 1
 ---

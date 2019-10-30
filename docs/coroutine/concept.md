@@ -9,7 +9,8 @@ nav_order: 2
 - CoroutineScope, GlobalScope
 - CoroutineContext
 - Dispatcher
-- launch, async
+- launch, async  
+
 ## CoroutineScope, GlobalScope
 `CoroutineScope`는 말 그대로 코루틴을 묶음으로 제어할수 있는 단위다.  
 
@@ -32,7 +33,7 @@ CoroutineContext 을 상속받아 어떤 스레드를 이용해서 어떻게 동
 
 #### Space
 # launch, async
-launch, async는 CouroutineScope의 확장함수 이며, 넘겨받은 코드블록으로 코루틴을 만들고 실행해주는 빌더다.  
+`launch`, `async`는 CouroutineScope의 확장함수 이며, 넘겨받은 코드블록으로 코루틴을 만들고 실행해주는 빌더다.  
 
 `launch`는 Job, `async`는 Defferd 객체를 반환하며, 이 객체를 사용해 수행 결과를 받거나 스케쥴 관리가 가능하다.
 
