@@ -12,7 +12,7 @@ nav_order: 2
 - launch, async  
 
 ## CoroutineScope, GlobalScope
-`CoroutineScope`는 말 그대로 코루틴을 묶음으로 제어할수 있는 단위다.  
+<p class="highlighter-rouge">CoroutineScope</p>는 말 그대로 코루틴을 묶음으로 제어할수 있는 단위다.  
 
 GloablScope는 CoroutineScope의 한 종류이며 프로그램 전반에 걸쳐 백그라운드에서 실행된다.  
 
