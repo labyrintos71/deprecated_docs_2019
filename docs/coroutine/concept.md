@@ -12,18 +12,18 @@ nav_order: 2
 - launch, async  
 
 ## CoroutineScope, GlobalScope
-<span class="highlighter-rouge">CoroutineScope</span>는 말 그대로 코루틴을 묶음으로 제어할수 있는 단위다.  
+<span class="hl">CoroutineScope</span>는 말 그대로 코루틴을 묶음으로 제어할수 있는 단위다.  
 
 GloablScope는 CoroutineScope의 한 종류이며 프로그램 전반에 걸쳐 백그라운드에서 실행된다.  
 
 #### Space
 ## CoroutineContext 
-`CoroutineContext`는 코루틴을 어떻게 처리할것인지 에 대한 레퍼런스이며  
+<span class="hl">CoroutineContext</span>는 코루틴을 어떻게 처리할것인지 에 대한 레퍼런스이며  
 주요 요소로는 Job, dispatcher가 있다.  
 
 #### Space
 ## Dispatcher
-`Dispatcher`는 CoroutineContext의 주요 요소다.
+<span class="hl">Dispatcher</span>는 CoroutineContext의 주요 요소다.
 CoroutineContext 을 상속받아 어떤 스레드를 이용해서 어떻게 동작할것인지를 미리 정의되어있다.
 
 - Dispatchers.Default : CPU 사용량이 많은 작업에 사용, 주 스레드에서 작업하기에는 너무 긴 작업들에게 적합.
