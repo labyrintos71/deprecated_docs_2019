@@ -33,9 +33,9 @@ CoroutineContext 을 상속받아 어떤 스레드를 이용해서 어떻게 동
 
 #### Space
 # launch, async
-`launch`, `async`는 CouroutineScope의 확장함수 이며, 넘겨받은 코드블록으로 코루틴을 만들고 실행해주는 빌더다.  
+<span class="hl">launch</span>, <span class="hl">async</span>는 CouroutineScope의 확장함수 이며, 넘겨받은 코드블록으로 코루틴을 만들고 실행해주는 빌더다.  
 
-`launch`는 Job, `async`는 Defferd 객체를 반환하며, 이 객체를 사용해 수행 결과를 받거나 스케쥴 관리가 가능하다.
+<span class="hl">launch</span>는 Job, <span class="hl">async</span>는 Defferd 객체를 반환하며, 이 객체를 사용해 수행 결과를 받거나 스케쥴 관리가 가능하다.
 
 ## launch 
 launch()로 정의된 코루틴 블록은 Job을 반환한다.
