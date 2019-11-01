@@ -5,8 +5,8 @@ parent: Coroutine
 nav_order: 1
 ---
 # Coroutine 
-<span class="hl">코루틴</span> 이라는 단어는 어디서 나온 단어일까?  
-이를 알기 위해서는 먼저 <span class="hl">루틴</span>이라는 개념을 알아야 한다. <span class="hl">루틴</span>은 흔히 말하는 함수라 생각하면 되고, 루틴은 <span class="hl">메인루틴</span>과 <span class="hl">서브루틴</span>으로 나뉘어지는데, 아래 소스를 보면 실행 주체인 main()이 <span class="hl">메인루틴</span>이고 호출되는 함수인 reverse()가 <span class="hl">서브루틴</span>이 된다.
+`코루틴` 이라는 단어는 어디서 나온 단어일까?  
+이를 알기 위해서는 먼저`루틴`이라는 개념을 알아야 한다.`루틴`은 흔히 말하는 함수라 생각하면 되고, 루틴은`메인루틴`과 `서브루틴`으로 나뉘어지는데, 아래 소스를 보면 실행 주체인 `main()`이 `메인루틴`이고 호출되는 함수인 `reverse()`가 `서브루틴`이 된다.
 ```kotlin
 fun main() {
     var str = reverse("asdf")
