@@ -64,7 +64,9 @@ fun main() = runBlocking<Unit> { // start main coroutine
 ```
 runBlocking{...}을 메인메소드에 걸어줌으로써  
 시작으로부터 메인스레드를 블록 시키고 top-level 코루틴을 시작한다.  
-따라서 runBlocking{...}에서 가장 오래걸리는 delay(2000)이 끝날 때 까지 main 메소드가 살아있다.
+따라서 runBlocking{...}에서 가장 오래걸리는 delay(2000)이 끝날 때 까지 main 메소드가 살아있다.  
+
+/*안드로이드 의 경우 runBlocking() 함수를 메인 스레드 (UI 스레드) 에서 호출하여 시간이 오래 걸리는 작업을 수행하는 경우 ANR 이 발생할 위험이 있으므로 주의해야합니다.*/
 #### Space
 ## Job
 하지만 delay(1000)인 World! 를 찍기 위해 2초를 기다리는건 비효율적이다.  
@@ -72,7 +74,7 @@ runBlocking{...}을 메인메소드에 걸어줌으로써
 ```kotlin
 fun main() = runBlocking {
 //sampleStart
-    val job = GlobalScope.launch { // launch a new coroutine and keep a reference to its Job
+    val job = GlobalScope.launch { // 새로운 코루틴을 실행하고 job 에 저장
         delay(1000L)
         println("World!")
     }
