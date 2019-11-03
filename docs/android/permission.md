@@ -36,4 +36,4 @@ nav_order: 1
 |              | RECEIVE_WARP_PUSH       |
 |              | RECEIVE_MMS             |
 | STORAGE      | READ_EXTERNAL_STORAGE   |
-|              | WRITE_EXTERNAL_STOAGE   |
+|              | WRITE_EXTERNAL_STORAGE   |
