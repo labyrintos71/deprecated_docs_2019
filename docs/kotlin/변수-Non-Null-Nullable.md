@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 ## Non-Null/Nullable
-null을 값으로 가질 수 있으면 Nullable, null을 값으로 가질 수 없으면 Non-null타입
+null을 값으로 가질 수 있으면 Nullable, null을 값으로 가질 수 없으면 Non-null타입이다.
 ```kotlin
 // 에러     
 var a:String = null
