@@ -54,9 +54,8 @@ fun emptyrambdas(a: Int, c: (a: Int) -> Any) = c(a)
 ```
 #### Space
 ## 익명 함수
-람다식 안에서 return 할 수 없는 경우가 있습니다.  
-처리 중간에 조건을 주고 중간에 빠져나오고 싶지만 return이 없는 람다식의 경우입니다.  
-아래 예제와 같은 람다식에서 조건에 일치하는 경우 처리를 종료하고 싶은 경우를 보겠습니다.
+람다식 안에서 return 할 수 없는 경우가 있다.  
+처리 중간에 조건을 주고 중간에 빠져나오고 싶지만 return이 없는 람다식의 경우다.
 ```kotlin
 var funcSum = fun(a: Int, b: Int): Int { return a + b }
 
@@ -67,7 +66,7 @@ numbers.forEach { number ->
     ...
 }
 
-//이러한 경우에는 람다식이 아닌 익명 함수를 사용하는 것이 좋습니다.
+//이러한 경우에는 람다식이 아닌 익명 함수를 사용하는 것이 좋다.
 numbers.forEach(fun(number: Int) {
     if (number % 2 == 1) {
         return // 처리 종류
