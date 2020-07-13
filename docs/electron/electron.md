@@ -6,4 +6,4 @@ has_children: true
 permalink: /docs/electron
 ---
 
-## ReactiveX
+## Electron
