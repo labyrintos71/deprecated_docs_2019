@@ -2,11 +2,11 @@
 layout: default
 title: Vuejs 시작하기
 parent: VueJS
-nav_order: 1
+nav_order: 2
 ---
 ## VueJS
 ---
-VScode에 vetur 이라는 플러그인을 설치한다. 설치하고 나서 ! 를 타이핑 한후 tab키를 누르면  
+먼저 HTML 코드를 작성해야하는데 일일이 칠 필요 없이 ! 를 타이핑 한후 tab키를 누르면  
 ```html
 <!DOCTYPE html>
 <html lang="en">
