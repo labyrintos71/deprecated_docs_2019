@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Vuejs - Computed & Watch
+title: Vuejs - Style & Class
 parent: VueJS
-nav_order: 4
+nav_order: 5
 ---
 ## VueJS
 ---

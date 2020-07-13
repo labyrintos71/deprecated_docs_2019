@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Vuejs - Computed & Watch
+title: Vuejs - v-if & v-show
 parent: VueJS
-nav_order: 4
+nav_order: 6
 ---
 ## VueJS
 ---
